@@ -340,12 +340,195 @@
 
 /* responsive start */
 
-@media (max-width :480px) {
+@media (max-width :768px) {
 
     .main-container{
         width: 100vw;
         height: 100vh;
     }
 
+
+    .navbar{
+        width: 100%;
+        height: 15%;
+
+    }
+
+    .nav1 ul{
+        display: none;
+    }
+
+    .nav1 img{
+        width: 60%;
+    }
+
+    .nav2 span{
+        display: none;
+    }
+
+    .hero-section{
+       width: 100vw;
+       height: auto;
+       flex-direction: column;
+     
+       
+    }
+
+    .image-part{
+        width: 100%;
+        height: 50vh;
+        background-image: url('./asset/137-93215.jpg');
+        background-position: center;
+        background-size: cover;
+        
+    }
+
+    .text-part{
+        width: 100%;
+    }
+    .text-part h1{
+        font-size: 20px;
+    }
+
+    .text-part p{
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .text-part button{
+        width: 50%;
+        height: 30px;
+    }
+
+    .hero-section2{
+        width: 100vw;
+       height: auto;
+       flex-direction: column-reverse;
+       
+
+    }
+    .text-part2{
+        width: 100%;
+    }
+
+
+    .text-part2 h1{
+        font-size: 20px;
+    }
+
+    .text-part2 p{
+        font-size: 15px;
+        line-height: 30px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+
+    }
+
+    .text-part2 button{
+        width: 50%;
+        height: 30px;
+    }
+
+    .image-part2{
+        width: 100%;
+        height: 50vh;
+        background-position: center;
+        background-size: cover;
+    }
     
+    .hero-section3{
+        width: 100vw;
+       height: auto;
+       flex-direction: column;
+       
+
+    }
+    .text-part3{
+        width: 100%;
+    }
+
+    .text-part3 h1{
+        font-size: 18px;
+    }
+
+    .text-part3 p{
+        font-size: 15px;
+        line-height: 20px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+
+    }
+
+    .text-part3 button{
+        width: 50%;
+        height: 30px;
+    }
+
+    .image-part3{
+        width: 100%;
+        height: 50vh;
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    
+
+
+    .hero-section4{
+        width: 100vw;
+        height: auto;
+        flex-direction: column-reverse;
+
+    }
+
+    .text-part4{
+        width: 100%;
+    }
+
+    .text-part4 h1{
+        font-size: 20px;
+    }
+
+    .text-part4 p{
+        font-size: 13px;
+        line-height: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .text-part4 button{
+        width: 50%;
+        height: 30px;
+    }
+
+    .image-part4{
+        width: 100%;
+        height: 50vh;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .hero-section5 p{
+        font-size: 10px;
+        padding: 30px;
+
+    }
+
+    .last-part{
+        width: 100vw;
+        height: auto;
+
+
+    }
+
+    .icons{
+        gap: 20px;
+    }
+
+
+
+    .box-section{
+        display: none;
+    }
 }
